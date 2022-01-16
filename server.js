@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+require("dotenv").config();
 const http = require('http');
 const express = require('express');
 const bodyParser = require('body-parser');
